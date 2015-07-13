@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery.js"></script>
+<script>
+$(document).ready(function () {
+$("div").dblclick(function () {
+$(this).animate({marginTop:+30},0);
+});
+$("button").click(function () {
+$(".div3").animate({left: '-100px' });
+$(".div5").animate({left: '-100px' });
+});
+});
+</script>
+</head>
+<body>
+
+<button>Click</button><br>
+<div style="width:180px;height:20px;position:absolute">This is a paragraph 1.</div><br>
+<div style="background:#98bf21;height:10px;width:10px;position:absolute;"><br><br>
+
+<div style="width:180px;height:20px;position:absolute">This is a paragraph 2.</div><br>
+<div style="background:#98bf21;height:10px;width:10px;position:absolute;"><br><br>
+
+<div class="div3" style="width:180px;height:20px;position:absolute">This is a paragraph 3.</div><br>
+<div style="background:#98bf21;height:10px;width:10px;position:absolute;"><br><br>
+
+<div style="width:180px;height:20px;position:absolute">This is a paragraph 4.</div><br>
+<div style="background:#98bf21;height:10px;width:10px;position:absolute;"><br><br>
+
+<div class="div5" style="width:180px;height:20px;position:absolute">This is a paragraph 5.</div><br>
+<div style="background:#98bf21;height:10px;width:10px;position:absolute;">
+
+</body>
+</html>
+
