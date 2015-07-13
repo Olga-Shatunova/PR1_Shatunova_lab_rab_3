@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script> 
+
+<script> 
+ $(document).ready(function () { 
+   $("button").click(function () {  
+   $("div:even").animate({left: '-40px' });
+   $('#2').text( $('#1').text());
+   $('#4').text($('#3').text());
+   $('#6').text($('#5').text());
+  
+        }); 
+    }); 
+</script> 
+</head> 
+
+<body> 
+
+<button>Click me</button> <br><br>
+
+<div id="1"style="position:absolute;">This is a paragraph 1.</div><br><br>
+<div id="2"style="position:absolute;">This is a paragraph 2.</div><br><br>
+<div id="3"style="position:absolute;">This is a paragraph 3.</div><br><br>
+<div id="4"style="position:absolute;">This is a paragraph 4.</div><br><br>
+<div id="5"style="position:absolute;">This is a paragraph 5.</div><br><br>
+<div id="6"style="position:absolute;">This is a paragraph 6.</div><br>
+
+</body> 
+</html>
