@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js">
+</script>
+<script>
+$(document).ready(function () {
+$("#but1").dblclick(function () {
+$("[align]").hide();
+});
+$("#but2").dblclick(function () {
+$("[align]").show();
+});
+});
+</script>
+</head>
+<body>
+
+<button id="but1">Click me</button>
+<button id="but2">Click me for show</button>
+
+<p align="center" >If you double-click the "Click me" button, I disappear. If you double-click the "Click me for show" button, I will show.</p>
+<p>Double-click the "Click me" button</p>
+<p>Double-click the "Click me for show" button</p>
+</body>
+</html>
