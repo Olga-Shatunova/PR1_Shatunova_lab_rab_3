@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script>
+$(document).ready(function () {
+$("button").click(function () {
+var i=1;
+do{
+$("p:odd").fadeToggle();
+i++;
+if(i%2==0){
+$("p:even").fadeToggle();}
+}
+while(i<3000)
+$("p:odd").hide();
+});
+});
+</script>
+</head>
+<body>
+<br><br><button>Click me</button>
+
+<p style="display:none">A night, a street, a lamp, a drugstore</p>
+<p style="display:none">A meaningless and dismal light</p>
+<p style="display:none">A quarter century outpours -</p>
+<p style="display:none">It’s all the same. No chance to flight.</p>
+<p style="display:none">You’d die and rise anew, begotten.</p>
+<p style="display:none">All would repeat as ever might:</p>
+<p style="display:none">The street, the icy rippled water,</p>
+<p style="display:none">The store, the lamp, the lonely night.</p>
+
+</body>
+</html>
