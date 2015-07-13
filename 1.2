@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src="http://code.jquery.com/jquery-latest.js">
+</script>
+<script>
+
+$(document).ready(function ()
+{
+$("#but1").click(function () 
+{
+$("tr:even").hide();
+});
+$("#but2").click(function ()
+{
+$("tr:even").show();
+});
+});
+</script>
+
+</head>
+<body>
+
+<button id="but1">Click me</button>
+<button id="but2">Click me for show</button>
+<table border="1">
+<tr>
+<th>Год</th>
+<th>Событие</th>
+</tr>
+<tr>
+<th>1380</th>
+<th>Куликовская битва</th>
+</tr>
+<tr>
+<th>1393</th>
+<th>Присоединение Нижнего Новгорода к Москве.</th>
+</tr>
+<tr>
+<th>1497 </th>
+<th>Судебник Ивана III.</th>
+</tr>
+<tr>
+<th>1581</th>
+<th>Поход Ермака в Сибирь</th>
+</tr>
+
+
+</body>
+</html>
