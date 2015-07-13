@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-2.1.1.js"></script>
+<script>
+$(document).ready(function(){
+  $("input").keyup(function(){
+    $("input").css("background-color","pink");
+  });
+$("input").keypress(function(){
+    $("input").css("background-color","yellow");
+  });
+});
+</script>
+</head>
+<body>
+ 
+¬ведите текст: <input type="text">
+ 
+</body>
+</html>
