@@ -1,26 +1,31 @@
-<!DOCTYPE html>
-<html>
-<head>
-<script src="http://code.jquery.com/jquery.js"></script>
-<script>
-$(document).ready(function () {
-$("button").click(function () {
-$("div:odd").slideUp("fast");
-});
-});
-</script>
-</head>
-<body>
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script> 
 
-<br><button>Click</button></br>
+<script> 
+$(document).ready(function () 
+ { 
+ $("button").click(function () 
+   { 
+ $("div:odd").slideUp({marginTop:-21},"slow");
+   
+   
+   });
+   
+ }); 
+</script> 
+</head> 
 
+<body> 
 
-<br><li><div style="background:#98bf21;height:30px;width:30px;position:absolute;"></li></br>
-<br><li><div style="background:#98bf21;height:30px;width:30px;position:absolute;"></li></br>
-<br><li><div style="background:#98bf21;height:30px;width:30px;position:absolute;"></li></br>
-<br><li><div style="background:#98bf21;height:30px;width:30px;position:absolute;"></li></br>
-<br><li><div style="background:#98bf21;height:30px;width:30px;position:absolute;"></li></br>
-<br><li><div style="background:#98bf21;height:30px;width:30px;position:absolute;"></li></br>
+<button>Click me</button> <br><br>
 
-</body>
+<div style="background:blue;height:40px;width:40px;position:absolute;"> </div><br><br>
+<div style="background:red;height:40px;width:40px;position:absolute;"> </div><br><br>
+<div style="background:blue;height:40px;width:40px;position:absolute;"> </div><br><br>
+<div style="background:red;height:40px;width:40px;position:absolute;"> </div><br><br>
+<div style="background:blue;height:40px;width:40px;position:absolute;"> </div><br><br>
+<div style="background:red;height:40px;width:40px;position:absolute;"> </div><br>
+ 
+
+</body> 
 </html>
